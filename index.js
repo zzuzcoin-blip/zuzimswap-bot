@@ -9,7 +9,7 @@ app.listen(PORT, '0.0.0.0', () => console.log(`✅ Web server on port ${PORT}`))
 
 // === БОТ ===
 const bot = new Telegraf(process.env.BOT_TOKEN);
-const APP_URL = 'https://zuzim-swap-live.vercel.app';
+const APP_URL = 'https://zuzim-swap-static.vercel.app';
 
 // ========== КНОПКИ ==========
 const mainMenu = () => Markup.keyboard([
